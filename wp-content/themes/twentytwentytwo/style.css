@@ -159,3 +159,21 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 .wp-block-post-comments ol.commentlist li.comment:not(:last-child) {
 	margin-bottom: 1rem;
 }
+
+@media (min-width: 1000px) {
+	.dynamic-color {
+		color: green !important;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+	.dynamic-color {
+		color: blue !important;
+	}
+}
+
+@media (max-width: 500px) {
+	.dynamic-color {
+		color: red !important;
+	}
+}
