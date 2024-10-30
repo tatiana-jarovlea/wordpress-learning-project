@@ -1,0 +1,17 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+wp-config.php
+
+# Temporary files
+*.log
+*.tmp
+
+# Uploads
+/wp-content/uploads/
+
+# Misc
+*.sql
+*.sqlite
+.DS_Store
+Thumbs.db
