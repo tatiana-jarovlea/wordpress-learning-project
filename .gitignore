@@ -15,3 +15,7 @@ wp-config.php
 *.sqlite
 .DS_Store
 Thumbs.db
+.env
+
+#IDE files
+.idea
